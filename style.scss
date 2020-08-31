@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro&display=swap');
+p {
+    font-family: Roboto;
+    font-size: 25pt;
+}
+h3 {
+    font-family: Roboto;
+}
+h2 {
+    font-family: Roboto;
+}
+.code{
+    font-family: Source Code Pro;
+}
+.b {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    border: transparent solid 1px;
+    border-radius: 35px;
+    font-size: 12.5pt;
+    cursor: pointer;
+    font-family: Roboto;
+    transition: 0.2s;
+    color: #333;
+}
+.bprimary {
+    @extend .b;
+    color:#f1f1f1;
+    background-color:#007bff;
+}
+.bprimary:hover {
+    background-color:#0069d9;
+}
+.bsecondary {
+    @extend .b;
+    color:#f1f1f1;
+    background-color:#6c757d;
+}
+.bsecondary:hover {
+    background-color:#5a6268;
+}
+.bsuccess {
+    @extend .b;
+    color:#f1f1f1;
+    background-color:#28a745;
+}
+.bsuccess:hover {
+    background-color:#218838;
+}
+.bdanger {
+    @extend .b;
+    color:#f1f1f1;
+    background-color:#dc3545;
+}
+.bdanger:hover {
+    background-color:#c82333;
+}
+.bwarning {
+    @extend .b;
+    color:#333;
+    background-color:#ffc107;
+}
+.bwarning:hover {
+    background-color:#e0a800
+}
+.binfo {
+    @extend .b;
+    color:#fff;
+    background-color:#17a2b8;
+}
+.binfo:hover {
+    background-color:#138496;
+}
+.blight {
+    @extend .b;
+    color:#333;
+    background-color:#e3e3e3;
+}
+.blight:hover {
+    background-color:#d3d3d3;
+}
+.bdark {
+    @extend .b;
+    color: #f1f1f1;
+    background-color: #333;
+}
+.bdark:hover {
+    background-color: #1b1b1b;
+}
+.blink {
+    @extend .b;
+    color: blue;
+    text-decoration: none;
+}
+.blink:hover {
+    text-decoration: underline;
+}
+
+/* outlined buttons */
+
+
+.oprimary {
+    @extend .b;
+    border:#007bff solid 2px;
+    color: #007bff;
+}
+.oprimary:hover {
+    color:#f1f1f1;
+    background-color:#007bff;
+}
+.osecondary {
+    @extend .b;
+    color:#6c757d;
+    border:#6c757d solid 2px;
+}
+.osecondary:hover {
+    color: #f1f1f1;
+    background-color:#6c757d;
+}
+.osuccess {
+    @extend .b;
+    color: #28a745;
+    border:#28a745 solid 2px;
+}
+.osuccess:hover {
+    color: #f1f1f1;
+    background-color:#28a745;
+}
+.odanger {
+    @extend .b;
+    color: #dc3545;
+    border:#dc3545 solid 2px;
+}
+.odanger:hover {
+    color:#f1f1f1;
+    background-color:#dc3545;
+}
+.owarning {
+    @extend .b;
+    color:#333;
+    border:#ffc107 solid 2px;
+}
+.owarning:hover {
+    background-color:#ffc107;
+    color: #333;
+}
+.oinfo {
+    @extend .b;
+    color:#17a2b8;
+    border:#17a2b8 solid 2px;
+}
+.oinfo:hover {
+    background-color:#17a2b8;
+    color: #f1f1f1;
+}
+.olight {
+    @extend .b;
+    color:#333;
+    border:#e3e3e3 solid 2px;
+}
+.olight:hover {
+    background-color:#e3e3e3;
+}
+.odark {
+    @extend .b;
+    color: #333;
+    border: #333 solid 2px;
+}
+.odark:hover {
+    color: #f1f1f1;
+    background-color: #333;
+}
+.scale:hover {
+    transform: scale(1.2);
+}
+.blg {
+    padding: 15px;
+    font-size: 15pt;
+}
+.bsm {
+    padding: 10px;
+    font-size: 10pt;
+}
+.lgbprimary {
+    @extend .b;
+    background-image: linear-gradient(to right, lightblue, #add8e6, lightgreen);
+    border: none;
+    color: #333;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.lgbprimary:hover {
+    background-image: linear-gradient(to left, lightblue, #add8e6, lightgreen);
+}
