@@ -1,3 +1,4 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 @font-face {
     font-family: 'Product Sans';
     font-style: normal;
@@ -29,6 +30,7 @@ h2 {
     font-family: Inter;
     transition: 0.2s;
     color: #333;
+    outline: none;
 }
 .bprimary {
     @extend .b;
@@ -178,7 +180,10 @@ h2 {
     background-color: #333;
 }
 .scale:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
+}
+.scale:active {
+    transform: scale(0.9);
 }
 .blg {
     padding: 15px;
@@ -190,9 +195,14 @@ h2 {
 }
 .lgbprimary {
     @extend .b;
-    background-image: linear-gradient(to right, lightblue, #add8e6, lightgreen);
+    background: linear-gradient(
+		to right,
+		#52a0fd 0%,
+		#00e2fa 80%,
+		#00e2fa 100%
+	);
     border: none;
-    color: #333;
+    color: #f1f1f1;
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 .lgbprimary:hover {
@@ -205,4 +215,20 @@ h2 {
 }
 .lb1 {
     border-radius: 2.5px;
+}
+/* SHADOW BUTTONS */ 
+.sha {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.shalg {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.shasm {
+    -webkit-box-shadow: 0px 0px 2.5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 2.5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 2.5px 0px rgba(0,0,0,0.75);
 }

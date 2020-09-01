@@ -1,3 +1,4 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @font-face {
   font-family: 'Product Sans';
@@ -35,6 +36,7 @@ h2 {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   color: #333;
+  outline: none;
 }
 
 .bprimary {
@@ -199,8 +201,13 @@ h2 {
 }
 
 .scale:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.scale:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 .blg {
@@ -214,10 +221,10 @@ h2 {
 }
 
 .lgbprimary {
-  background-image: -webkit-gradient(linear, left top, right top, from(lightblue), color-stop(#add8e6), to(lightgreen));
-  background-image: linear-gradient(to right, lightblue, #add8e6, lightgreen);
+  background: -webkit-gradient(linear, left top, right top, from(#52a0fd), color-stop(80%, #00e2fa), to(#00e2fa));
+  background: linear-gradient(to right, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
   border: none;
-  color: #333;
+  color: #f1f1f1;
   -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
@@ -234,5 +241,21 @@ h2 {
 
 .lb1 {
   border-radius: 2.5px;
+}
+
+/* SHADOW BUTTONS */
+.sha {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.shalg {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.shasm {
+  -webkit-box-shadow: 0px 0px 2.5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 2.5px 0px rgba(0, 0, 0, 0.75);
 }
 /*# sourceMappingURL=style.css.map */
