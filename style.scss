@@ -24,7 +24,7 @@ h2 {
     border: none;
     padding: 10px;
     border: transparent solid 1px;
-    border-radius: 35px;
+    border-radius: 100rem;
     font-size: 12.5pt;
     cursor: pointer;
     font-family: Inter;
@@ -210,6 +210,26 @@ h2 {
 		#00e2fa 100%
     );
     transition: background 1000ms linear;
+}
+
+
+/* OUTLINED GRADIENT BUTTONS */
+.olg {
+    border: solid 2px transparent;
+    box-shadow: 100px 1000px 1000px #fff inset;
+}
+.olg:hover {
+    box-shadow: none;
+    border: solid 2px transparent;
+}
+.olgprimary {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right,#52a0fd 0%,#00e2fa 80%,#00e2fa 100%);
+    background-origin: border-box;
+}
+.olgprimary:hover {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to left,101deg, #52a0fd 0%,#00e2fa 80%,#00e2fa 100%);
 }
 /* child classes */
 .scale:hover {

@@ -24,12 +24,12 @@ h2 {
   font-family: Source Code Pro;
 }
 
-.b, .bprimary, .bsecondary, .bsuccess, .bdanger, .bwarning, .binfo, .blight, .bdark, .blink, .oprimary, .osecondary, .osuccess, .odanger, .owarning, .oinfo, .olight, .odark, .lgbprimary {
+.b, .bprimary, .bsecondary, .bsuccess, .bdanger, .bwarning, .binfo, .blight, .bdark, .blink, .oprimary, .osecondary, .osuccess, .odanger, .owarning, .oinfo, .olight, .odark, .lgbprimary, .olgprimary {
   background-color: white;
   border: none;
   padding: 10px;
   border: transparent solid 1px;
-  border-radius: 35px;
+  border-radius: 100rem;
   font-size: 12.5pt;
   cursor: pointer;
   font-family: Inter;
@@ -223,6 +223,30 @@ h2 {
   background: linear-gradient(to left, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
   -webkit-transition: background 1000ms linear;
   transition: background 1000ms linear;
+}
+
+/* OUTLINED GRADIENT BUTTONS */
+.olg, .olgprimary {
+  border: solid 2px transparent;
+  -webkit-box-shadow: 100px 1000px 1000px #fff inset;
+          box-shadow: 100px 1000px 1000px #fff inset;
+}
+
+.olg:hover, .olgprimary:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: solid 2px transparent;
+}
+
+.olgprimary {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0))), -webkit-gradient(linear, left top, right top, from(#52a0fd), color-stop(80%, #00e2fa), to(#00e2fa));
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
+  background-origin: border-box;
+}
+
+.olgprimary:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0))), -webkit-gradient(linear, right top, left top, from(101deg), color-stop(0%, #52a0fd), color-stop(80%, #00e2fa), to(#00e2fa));
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to left, 101deg, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
 }
 
 /* child classes */
