@@ -6,16 +6,6 @@
     src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
   }
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-p {
-    font-family: Product Sans;
-    font-size: 25pt;
-}
-h3 {
-    font-family: Product Sans;
-}
-h2 {
-    font-family: Product Sans;
-}
 .code{
     font-family: Source Code Pro;
 }
@@ -189,6 +179,8 @@ h2 {
     background-color: #333;
 }
 
+/* GRADIENT BUTTONS */
+
 .lgbprimary {
     @extend .b;
     background: linear-gradient(
@@ -245,6 +237,148 @@ h2 {
     color: #000;
     background: linear-gradient(to right, 101deg, #ADA996, #DBDBDB,#EAEAEA);
 }
+
+/* push buttons */
+.pb {
+    @extend .b;
+    box-shadow: 0 6px #999;
+}
+
+.pb:active {
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+.pbprimary {
+    @extend .pb;
+    color: #f1f1f1;
+    background-color: #007bff;
+}
+
+.pbprimary:hover {
+  color: #f1f1f1;
+  background-color: #0069d9;
+}
+
+.pbprimary:active {
+  color: #f1f1f1;
+  background-color: #0069d9;
+}
+
+.pbsecondary {
+  @extend .pb;
+  color: #f1f1f1;
+  background-color: #6c757d;
+}
+
+.pbsecondary:hover {
+  color: #f1f1f1;
+  background-color: #5a6268;
+}
+
+.pbsecondary:active {
+  color: #f1f1f1;
+  background-color: #5a6268;
+}
+
+.pbsuccess {
+  @extend .pb;
+  color: #f1f1f1;
+  background-color: #28a745;
+}
+
+.pbsuccess:hover {
+  color: #f1f1f1;
+  background-color: #218838;
+}
+
+.pbsuccess:active {
+  color: #f1f1f1;
+  background-color: #218838;
+}
+
+.pbdanger {
+  @extend .pb;
+  color: #f1f1f1;
+  background-color: #dc3545;
+}
+
+.pbdanger:hover {
+  color: #f1f1f1;
+  background-color: #c82333;
+}
+
+.pbdanger:active {
+  color: #f1f1f1;
+  background-color: #c82333;
+}
+
+.pbwarning {
+  @extend .pb;
+  color: #333;
+  background-color: #ffc107;
+}
+
+.pbwarning:hover {
+  color: #333;
+  background-color: #e0a800;
+}
+
+.pbwarning:active {
+  color: #333;
+  background-color: #e0a800;
+}
+
+.pbinfo {
+  @extend .pb;
+  color: #f1f1f1;
+  background-color: #17a2b8;
+}
+
+.pbinfo:hover {
+  color: #f1f1f1;
+  background-color: #138496;
+}
+
+.pbinfo:active {
+  color: #f1f1f1;
+  background-color: #138496;
+}
+
+.pblight {
+  @extend .pb;
+  color: #333;
+  background-color: #e3e3e3;
+}
+
+.pblight:hover {
+  color: #333;
+  background-color: #d3d3d3;
+}
+
+.pblight:active {
+  color: #333;
+  background-color: #d3d3d3;
+}
+
+.pbdark {
+  @extend .pb;
+  color: #f1f1f1;
+  background-color: #333;
+}
+
+.pbdark:hover {
+  color: #f1f1f1;
+  background-color: #1b1b1b;
+}
+
+.pbdark:active {
+  color: #f1f1f1;
+  background-color: #1b1b1b;
+}
+
+
+
 /* child classes */
 .scale:hover {
     transform: scale(1.15);
