@@ -238,6 +238,215 @@
     background: linear-gradient(to right, 101deg, #ADA996, #DBDBDB,#EAEAEA);
 }
 
+/* collection of gradient buttons */
+
+.lgbpiggypink {
+    @extend .b;
+    background: linear-gradient(
+        to right,
+        #ee9ca7,
+        #ffdde1
+	);
+    border: none;
+    color: #333;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.lgbpiggypink:hover {
+    background: linear-gradient(
+        to left,
+        #ee9ca7,
+        #ffdde1
+	);
+}
+.lgbpiggypink:active {
+    background: linear-gradient(
+        to right,
+        #ee9ca7,
+        #ffdde1
+	);
+}
+
+.lgbmegatron {
+    @extend .b;
+    background: linear-gradient(
+        to right,
+        #c6ffdd,
+        #fbd786,
+        #f7797d
+	);
+    border: none;
+    color: #333;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.lgbmegatron:hover {
+    background: linear-gradient(
+        to left,
+        #c6ffdd,
+        #fbd786,
+        #f7797d
+	);
+}
+.lgbmegatron:active {
+    background: linear-gradient(
+        to right,
+        #c6ffdd,
+        #fbd786,
+        #f7797d
+	);
+}
+
+.lgbeveningsunshine {
+    @extend .b;
+    background: linear-gradient(
+        to right,
+        #b92b27,
+        #1565c0,
+    );
+    color: #f1f1f1;
+    border: none;
+}
+.lgbeveningsunshine:hover {
+    background: linear-gradient(
+        to left,
+        #b92b27,
+        #1565c0,
+    );
+}
+.lgbeveningsunshine:active {
+    background: linear-gradient(
+        to right,
+        #b92b27,
+        #1565c0,
+    );
+}
+
+.lgbendlessriver {
+    @extend .b;
+    background: linear-gradient(
+        to left,
+        #43cea2,
+        #185a9d, 
+    );
+    border: none;
+    color: #f1f1f1;
+}
+.lgbendlessriver:hover {
+    background: linear-gradient(
+        to right,
+        #43cea2,
+        #185a9d, 
+    );
+}
+.lgbendlessriver:active {
+    background: linear-gradient(
+        to left,
+        #43cea2,
+        #185a9d, 
+    );
+}
+
+.lgblightocean {
+    @extend .b;
+    background: linear-gradient(
+        to left,
+        #2980b9,
+        #6dd5fa
+    );
+    border: none;
+    color: #333;
+}
+.lgblightocean:hover {
+    background: linear-gradient(
+        to right,
+        #2980b9,
+        #6dd5fa
+    );
+}
+.lgblightocean:active {
+    background: linear-gradient(
+        to left,
+        #2980b9,
+        #6dd5fa
+    );
+}
+
+.lgbyoda {
+    @extend .b;
+    background: linear-gradient(
+        to left,
+        #1f4037,
+        #99f2c8
+    );
+    border: none;
+}
+.lgbyoda:hover {
+    background: linear-gradient(
+        to right,
+        #1f4037,
+        #99f2c8
+    );
+}
+.lgbyoda:active {
+    background: linear-gradient(
+        to left,
+        #1f4037,
+        #99f2c8
+    );
+}
+
+.lgbazurlane {
+    @extend .b;
+    background: linear-gradient(
+        to left,
+        #7f7fd5,
+        #86a8e7,
+        #91eae4
+    );
+    border: none;
+}
+.lgbazurlane:hover {
+    background: linear-gradient(
+        to right,
+        #7f7fd5,
+        #86a8e7,
+        #91eae4
+    );
+}
+.lgbazurlane:active {
+    background: linear-gradient(
+        to left,
+        #7f7fd5,
+        #86a8e7,
+        #91eae4
+    );
+}
+
+.lgbwitchinghour {
+    @extend .b;
+    background: linear-gradient(
+        to left,
+        #c31432,
+        #240b36,
+    );
+    border: none;
+    color: #f1f1f1;
+}
+.lgbwitchinghour:hover {
+    background: linear-gradient(
+        to right,
+        #c31432,
+        #240b36,
+    );
+}
+.lgbwitchinghour:active {
+    background: linear-gradient(
+        to left,
+        #c31432,
+        #240b36,
+    );
+}
+
+
 /* push buttons */
 .pb {
     @extend .b;

@@ -11,7 +11,7 @@
   font-family: Source Code Pro;
 }
 
-.b, .bprimary, .bsecondary, .bsuccess, .bdanger, .bwarning, .binfo, .blight, .bdark, .blink, .oprimary, .osecondary, .osuccess, .odanger, .owarning, .oinfo, .olight, .odark, .lgbprimary, .olgprimary, .olgsecondary, .pb, .pbprimary, .pbsecondary, .pbsuccess, .pbdanger, .pbwarning, .pbinfo, .pblight, .pbdark {
+.b, .bprimary, .bsecondary, .bsuccess, .bdanger, .bwarning, .binfo, .blight, .bdark, .blink, .oprimary, .osecondary, .osuccess, .odanger, .owarning, .oinfo, .olight, .odark, .lgbprimary, .olgprimary, .olgsecondary, .lgbpiggypink, .lgbmegatron, .lgbeveningsunshine, .lgbendlessriver, .lgblightocean, .lgbyoda, .lgbazurlane, .lgbwitchinghour, .pb, .pbprimary, .pbsecondary, .pbsuccess, .pbdanger, .pbwarning, .pbinfo, .pblight, .pbdark {
   background-color: white;
   border: none;
   padding: 10px;
@@ -196,6 +196,7 @@
   background-color: #333;
 }
 
+/* GRADIENT BUTTONS */
 .lgbprimary {
   background: -webkit-gradient(linear, left top, right top, from(#52a0fd), color-stop(80%, #00e2fa), to(#00e2fa));
   background: linear-gradient(to right, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
@@ -249,6 +250,145 @@
   color: #000;
   background: -webkit-gradient(linear, left top, right top, from(101deg), color-stop(#ADA996), color-stop(#DBDBDB), to(#EAEAEA));
   background: linear-gradient(to right, 101deg, #ADA996, #DBDBDB, #EAEAEA);
+}
+
+/* collection of gradient buttons */
+.lgbpiggypink {
+  background: -webkit-gradient(linear, left top, right top, from(#ee9ca7), to(#ffdde1));
+  background: linear-gradient(to right, #ee9ca7, #ffdde1);
+  border: none;
+  color: #333;
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.lgbpiggypink:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#ee9ca7), to(#ffdde1));
+  background: linear-gradient(to left, #ee9ca7, #ffdde1);
+}
+
+.lgbpiggypink:active {
+  background: -webkit-gradient(linear, left top, right top, from(#ee9ca7), to(#ffdde1));
+  background: linear-gradient(to right, #ee9ca7, #ffdde1);
+}
+
+.lgbmegatron {
+  background: -webkit-gradient(linear, left top, right top, from(#c6ffdd), color-stop(#fbd786), to(#f7797d));
+  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  border: none;
+  color: #333;
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.lgbmegatron:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#c6ffdd), color-stop(#fbd786), to(#f7797d));
+  background: linear-gradient(to left, #c6ffdd, #fbd786, #f7797d);
+}
+
+.lgbmegatron:active {
+  background: -webkit-gradient(linear, left top, right top, from(#c6ffdd), color-stop(#fbd786), to(#f7797d));
+  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
+
+.lgbeveningsunshine {
+  background: -webkit-gradient(linear, left top, right top, from(#b92b27), to(#1565c0));
+  background: linear-gradient(to right, #b92b27, #1565c0);
+  color: #f1f1f1;
+  border: none;
+}
+
+.lgbeveningsunshine:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#b92b27), to(#1565c0));
+  background: linear-gradient(to left, #b92b27, #1565c0);
+}
+
+.lgbeveningsunshine:active {
+  background: -webkit-gradient(linear, left top, right top, from(#b92b27), to(#1565c0));
+  background: linear-gradient(to right, #b92b27, #1565c0);
+}
+
+.lgbendlessriver {
+  background: -webkit-gradient(linear, right top, left top, from(#43cea2), to(#185a9d));
+  background: linear-gradient(to left, #43cea2, #185a9d);
+  border: none;
+  color: #f1f1f1;
+}
+
+.lgbendlessriver:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#43cea2), to(#185a9d));
+  background: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+.lgbendlessriver:active {
+  background: -webkit-gradient(linear, right top, left top, from(#43cea2), to(#185a9d));
+  background: linear-gradient(to left, #43cea2, #185a9d);
+}
+
+.lgblightocean {
+  background: -webkit-gradient(linear, right top, left top, from(#2980b9), to(#6dd5fa));
+  background: linear-gradient(to left, #2980b9, #6dd5fa);
+  border: none;
+  color: #333;
+}
+
+.lgblightocean:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#2980b9), to(#6dd5fa));
+  background: linear-gradient(to right, #2980b9, #6dd5fa);
+}
+
+.lgblightocean:active {
+  background: -webkit-gradient(linear, right top, left top, from(#2980b9), to(#6dd5fa));
+  background: linear-gradient(to left, #2980b9, #6dd5fa);
+}
+
+.lgbyoda {
+  background: -webkit-gradient(linear, right top, left top, from(#1f4037), to(#99f2c8));
+  background: linear-gradient(to left, #1f4037, #99f2c8);
+  border: none;
+}
+
+.lgbyoda:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#1f4037), to(#99f2c8));
+  background: linear-gradient(to right, #1f4037, #99f2c8);
+}
+
+.lgbyoda:active {
+  background: -webkit-gradient(linear, right top, left top, from(#1f4037), to(#99f2c8));
+  background: linear-gradient(to left, #1f4037, #99f2c8);
+}
+
+.lgbazurlane {
+  background: -webkit-gradient(linear, right top, left top, from(#7f7fd5), color-stop(#86a8e7), to(#91eae4));
+  background: linear-gradient(to left, #7f7fd5, #86a8e7, #91eae4);
+  border: none;
+}
+
+.lgbazurlane:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#7f7fd5), color-stop(#86a8e7), to(#91eae4));
+  background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+}
+
+.lgbazurlane:active {
+  background: -webkit-gradient(linear, right top, left top, from(#7f7fd5), color-stop(#86a8e7), to(#91eae4));
+  background: linear-gradient(to left, #7f7fd5, #86a8e7, #91eae4);
+}
+
+.lgbwitchinghour {
+  background: -webkit-gradient(linear, right top, left top, from(#c31432), to(#240b36));
+  background: linear-gradient(to left, #c31432, #240b36);
+  border: none;
+  color: #f1f1f1;
+}
+
+.lgbwitchinghour:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#c31432), to(#240b36));
+  background: linear-gradient(to right, #c31432, #240b36);
+}
+
+.lgbwitchinghour:active {
+  background: -webkit-gradient(linear, right top, left top, from(#c31432), to(#240b36));
+  background: linear-gradient(to left, #c31432, #240b36);
 }
 
 /* push buttons */
