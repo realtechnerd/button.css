@@ -24,7 +24,7 @@ h2 {
   font-family: Source Code Pro;
 }
 
-.b, .bprimary, .bsecondary, .bsuccess, .bdanger, .bwarning, .binfo, .blight, .bdark, .blink, .oprimary, .osecondary, .osuccess, .odanger, .owarning, .oinfo, .olight, .odark, .lgbprimary, .olgprimary {
+.b, .bprimary, .bsecondary, .bsuccess, .bdanger, .bwarning, .binfo, .blight, .bdark, .blink, .oprimary, .osecondary, .osuccess, .odanger, .owarning, .oinfo, .olight, .odark, .lgbprimary, .olgprimary, .olgsecondary {
   background-color: white;
   border: none;
   padding: 10px;
@@ -226,27 +226,42 @@ h2 {
 }
 
 /* OUTLINED GRADIENT BUTTONS */
-.olg, .olgprimary {
+.olg, .olgprimary, .olgsecondary {
   border: solid 2px transparent;
-  -webkit-box-shadow: 100px 1000px 1000px #fff inset;
-          box-shadow: 100px 1000px 1000px #fff inset;
+  -webkit-box-shadow: 2px 1000px 1px white inset;
+          box-shadow: 2px 1000px 1px white inset;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
 }
 
-.olg:hover, .olgprimary:hover {
+.olg:hover, .olgprimary:hover, .olgsecondary:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
   border: solid 2px transparent;
 }
 
 .olgprimary {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0))), -webkit-gradient(linear, left top, right top, from(#52a0fd), color-stop(80%, #00e2fa), to(#00e2fa));
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#021b79), color-stop(25%, #007bff), color-stop(80%, lightblue));
+  background: linear-gradient(to right, #021b79, #007bff 25%, lightblue 80%);
   background-origin: border-box;
 }
 
 .olgprimary:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0))), -webkit-gradient(linear, right top, left top, from(101deg), color-stop(0%, #52a0fd), color-stop(80%, #00e2fa), to(#00e2fa));
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to left, 101deg, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
+  color: #f1f1f1;
+  background: -webkit-gradient(linear, left top, right top, from(101deg), color-stop(#021b79), color-stop(#0575e6), to(lightblue));
+  background: linear-gradient(to right, 101deg, #021b79, #0575e6, lightblue);
+}
+
+.olgsecondary {
+  background: -webkit-gradient(linear, left top, right top, from(#ADA996), color-stop(#DBDBDB), to(#EAEAEA));
+  background: linear-gradient(to right, #ADA996, #DBDBDB, #EAEAEA);
+  background-origin: border-box;
+}
+
+.olgsecondary:hover {
+  color: #000;
+  background: -webkit-gradient(linear, left top, right top, from(101deg), color-stop(#ADA996), color-stop(#DBDBDB), to(#EAEAEA));
+  background: linear-gradient(to right, 101deg, #ADA996, #DBDBDB, #EAEAEA);
 }
 
 /* child classes */

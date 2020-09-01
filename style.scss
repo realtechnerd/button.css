@@ -216,7 +216,8 @@ h2 {
 /* OUTLINED GRADIENT BUTTONS */
 .olg {
     border: solid 2px transparent;
-    box-shadow: 100px 1000px 1000px #fff inset;
+    box-shadow: 2px 1000px 1px white inset;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
 }
 .olg:hover {
     box-shadow: none;
@@ -225,11 +226,24 @@ h2 {
 .olgprimary {
     @extend .b;
     @extend .olg;
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right,#52a0fd 0%,#00e2fa 80%,#00e2fa 100%);
+    background: linear-gradient(to right, #021b79, #007bff 25%, lightblue 80%);
     background-origin: border-box;
 }
 .olgprimary:hover {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to left,101deg, #52a0fd 0%,#00e2fa 80%,#00e2fa 100%);
+    @extend .olg:hover;
+    color: #f1f1f1;
+    background: linear-gradient(to right, 101deg, #021b79, #0575e6, lightblue);
+}
+.olgsecondary {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(to right, #ADA996, #DBDBDB,#EAEAEA);
+    background-origin: border-box;
+}   
+.olgsecondary:hover {
+    @extend .olg:hover;
+    color: #000;
+    background: linear-gradient(to right, 101deg, #ADA996, #DBDBDB,#EAEAEA);
 }
 /* child classes */
 .scale:hover {
