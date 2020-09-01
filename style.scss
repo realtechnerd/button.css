@@ -31,6 +31,7 @@ h2 {
     transition: 0.2s;
     color: #333;
     outline: none;
+    text-decoration: none;
 }
 .bprimary {
     @extend .b;
@@ -38,6 +39,7 @@ h2 {
     background-color:#007bff;
 }
 .bprimary:hover {
+    color: #f1f1f1;
     background-color:#0069d9;
 }
 .bsecondary {
@@ -46,6 +48,7 @@ h2 {
     background-color:#6c757d;
 }
 .bsecondary:hover {
+    color: #f1f1f1;
     background-color:#5a6268;
 }
 .bsuccess {
@@ -54,6 +57,7 @@ h2 {
     background-color:#28a745;
 }
 .bsuccess:hover {
+    color: #f1f1f1;
     background-color:#218838;
 }
 .bdanger {
@@ -62,6 +66,7 @@ h2 {
     background-color:#dc3545;
 }
 .bdanger:hover {
+    color: #f1f1f1;
     background-color:#c82333;
 }
 .bwarning {
@@ -70,14 +75,16 @@ h2 {
     background-color:#ffc107;
 }
 .bwarning:hover {
+    color: #333;
     background-color:#e0a800
 }
 .binfo {
     @extend .b;
-    color:#fff;
+    color:#f1f1f1;
     background-color:#17a2b8;
 }
 .binfo:hover {
+    color: #f1f1f1;
     background-color:#138496;
 }
 .blight {
@@ -86,6 +93,7 @@ h2 {
     background-color:#e3e3e3;
 }
 .blight:hover {
+    color: #333;
     background-color:#d3d3d3;
 }
 .bdark {
@@ -94,6 +102,7 @@ h2 {
     background-color: #333;
 }
 .bdark:hover {
+    color: #f1f1f1;
     background-color: #1b1b1b;
 }
 .blink {
@@ -179,6 +188,30 @@ h2 {
     color: #f1f1f1;
     background-color: #333;
 }
+
+.lgbprimary {
+    @extend .b;
+    background: linear-gradient(
+		to right,
+		#52a0fd 0%,
+		#00e2fa 80%,
+		#00e2fa 100%
+	);
+    border: none;
+    color: #f1f1f1;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.lgbprimary:hover {
+    background: linear-gradient(
+		to left,
+		#52a0fd 0%,
+		#00e2fa 80%,
+		#00e2fa 100%
+    );
+    transition: background 1000ms linear;
+}
+/* child classes */
 .scale:hover {
     transform: scale(1.15);
 }
@@ -192,18 +225,6 @@ h2 {
 .bsm {
     padding: 10px;
     font-size: 10pt;
-}
-.lgbprimary {
-    @extend .b;
-    background: linear-gradient(
-		to right,
-		#52a0fd 0%,
-		#00e2fa 80%,
-		#00e2fa 100%
-	);
-    border: none;
-    color: #f1f1f1;
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 /* LESS BORDER BUTTONS */
