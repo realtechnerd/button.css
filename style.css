@@ -229,11 +229,6 @@ h2 {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.lgbprimary:hover {
-  background-image: -webkit-gradient(linear, right top, left top, from(lightblue), color-stop(#add8e6), to(lightgreen));
-  background-image: linear-gradient(to left, lightblue, #add8e6, lightgreen);
-}
-
 /* LESS BORDER BUTTONS */
 .lb {
   border-radius: 5px;
