@@ -589,6 +589,9 @@
 
 
 /* child classes */
+.scale {
+    @extend .b;
+}
 .scale:hover {
     transform: scale(1.15);
 }
@@ -602,6 +605,14 @@
 .bsm {
     padding: 10px;
     font-size: 10pt;
+}
+.bxsm {
+    padding: 7.5px;
+    font-size: 7.5pt;
+}
+.bxlg {
+    padding: 17.5px;
+    font-size: 17.5pt;
 }
 
 /* LESS BORDER BUTTONS */
