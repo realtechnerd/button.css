@@ -23,6 +23,9 @@
     outline: none;
     text-decoration: none;
 }
+a.b:hover {
+    text-decoration: none;
+}
 .bprimary {
     @extend .b;
     color:#f1f1f1;
