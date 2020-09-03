@@ -14,10 +14,10 @@
 .b, .bprimary, .bsecondary, .bsuccess, .bdanger, .bwarning, .binfo, .blight, .bdark, .blink, .oprimary, .osecondary, .osuccess, .odanger, .owarning, .oinfo, .olight, .odark, .lgbprimary, .olgprimary, .olgsecondary, .lgbpiggypink, .lgbmegatron, .lgbeveningsunshine, .lgbendlessriver, .lgblightocean, .lgbyoda, .lgbazurlane, .lgbwitchinghour, .pb, .pbprimary, .pbsecondary, .pbsuccess, .pbdanger, .pbwarning, .pbinfo, .pblight, .pbdark, .scale {
   background-color: white;
   border: none;
-  padding: 10px;
+  padding: 0.5rem;
+  font-size: 1rem;
   border: transparent solid 1px;
   border-radius: 100rem;
-  font-size: 12.5pt;
   cursor: pointer;
   font-family: Inter;
   -webkit-transition: 0.2s;
@@ -541,8 +541,8 @@
 }
 
 .bsm {
-  padding: 10px;
-  font-size: 10pt;
+  padding: 9px;
+  font-size: 9pt;
 }
 
 .bxsm {
