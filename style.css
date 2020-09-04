@@ -4,8 +4,8 @@
   font-family: Source Code Pro;
 }
 
-.b, .bprimary, .bsecondary, .bsuccess, .bdanger, .bwarning, .binfo, .blight, .bdark, .blink, .oprimary, .osecondary, .osuccess, .odanger, .owarning, .oinfo, .olight, .odark, .lgbprimary, .olgprimary, .olgsecondary, .lgbpiggypink, .lgbmegatron, .lgbeveningsunshine, .lgbendlessriver, .lgblightocean, .lgbyoda, .lgbazurlane, .lgbwitchinghour, .pb, .pbprimary, .pbsecondary, .pbsuccess, .pbdanger, .pbwarning, .pbinfo, .pblight, .pbdark, .scale {
-  background-color: white;
+.b, .bprimary, .bsecondary, .bsuccess, .bdanger, .bwarning, .binfo, .blight, .bdark, .oprimary, .osecondary, .osuccess, .odanger, .owarning, .oinfo, .olight, .odark, .lgbprimary, .olgprimary, .olgsecondary, .lgbpiggypink, .lgbmegatron, .lgbeveningsunshine, .lgbendlessriver, .lgblightocean, .lgbyoda, .lgbazurlane, .lgbwitchinghour, .pb, .pbprimary, .pbsecondary, .pbsuccess, .pbdanger, .pbwarning, .pbinfo, .pblight, .pbdark, .scale {
+  background-color: transparent;
   border: none;
   padding: 0.5rem;
   font-size: 0.95rem;
@@ -25,7 +25,11 @@
           user-select: none;
 }
 
-a.b:hover, a.bprimary:hover, a.bsecondary:hover, a.bsuccess:hover, a.bdanger:hover, a.bwarning:hover, a.binfo:hover, a.blight:hover, a.bdark:hover, a.blink:hover, a.oprimary:hover, a.osecondary:hover, a.osuccess:hover, a.odanger:hover, a.owarning:hover, a.oinfo:hover, a.olight:hover, a.odark:hover, a.lgbprimary:hover, a.olgprimary:hover, a.olgsecondary:hover, a.lgbpiggypink:hover, a.lgbmegatron:hover, a.lgbeveningsunshine:hover, a.lgbendlessriver:hover, a.lgblightocean:hover, a.lgbyoda:hover, a.lgbazurlane:hover, a.lgbwitchinghour:hover, a.pb:hover, a.pbprimary:hover, a.pbsecondary:hover, a.pbsuccess:hover, a.pbdanger:hover, a.pbwarning:hover, a.pbinfo:hover, a.pblight:hover, a.pbdark:hover, a.scale:hover {
+.wbg {
+  background-color: white;
+}
+
+a.b:hover, a.bprimary:hover, a.bsecondary:hover, a.bsuccess:hover, a.bdanger:hover, a.bwarning:hover, a.binfo:hover, a.blight:hover, a.bdark:hover, a.oprimary:hover, a.osecondary:hover, a.osuccess:hover, a.odanger:hover, a.owarning:hover, a.oinfo:hover, a.olight:hover, a.odark:hover, a.lgbprimary:hover, a.olgprimary:hover, a.olgsecondary:hover, a.lgbpiggypink:hover, a.lgbmegatron:hover, a.lgbeveningsunshine:hover, a.lgbendlessriver:hover, a.lgblightocean:hover, a.lgbyoda:hover, a.lgbazurlane:hover, a.lgbwitchinghour:hover, a.pb:hover, a.pbprimary:hover, a.pbsecondary:hover, a.pbsuccess:hover, a.pbdanger:hover, a.pbwarning:hover, a.pbinfo:hover, a.pblight:hover, a.pbdark:hover, a.scale:hover {
   text-decoration: none;
 }
 
@@ -107,15 +111,6 @@ a.b:hover, a.bprimary:hover, a.bsecondary:hover, a.bsuccess:hover, a.bdanger:hov
 .bdark:hover {
   color: #f1f1f1;
   background-color: #1b1b1b;
-}
-
-.blink {
-  color: blue;
-  text-decoration: none;
-}
-
-.blink:hover {
-  text-decoration: underline;
 }
 
 /* outlined buttons */
