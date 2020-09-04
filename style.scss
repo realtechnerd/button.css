@@ -22,10 +22,11 @@
     color: #333;
     outline: none;
     text-decoration: none;
+    display:inline-block;
 }
 a.b:hover {
     text-decoration: none;
-}
+}   
 .bprimary {
     @extend .b;
     color:#f1f1f1;
