@@ -1,12 +1,5 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
-@font-face {
-  font-family: 'Product Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Open Sans"), local("OpenSans"), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format("woff2");
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 .code {
   font-family: Source Code Pro;
 }
@@ -19,7 +12,7 @@
   border: transparent solid 1px;
   border-radius: 100rem;
   cursor: pointer;
-  font-family: Product Sans;
+  font-family: Manrope;
   -webkit-transition: 0.2s;
   transition: 0.2s;
   color: #333;
