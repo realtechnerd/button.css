@@ -5,7 +5,7 @@
     font-weight: 400;
     src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
   }
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 .code{
     font-family: Source Code Pro;
 }
@@ -17,7 +17,7 @@
     border: transparent solid 1px;
     border-radius: 100rem;
     cursor: pointer;
-    font-family: Inter;
+    font-family: Source Sans Pro;
     transition: 0.2s;
     color: #333;
     outline: none;
