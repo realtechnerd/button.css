@@ -4,7 +4,7 @@
   font-family: Source Code Pro;
 }
 
-.b, .bprimary, .bsecondary, .bsuccess, .bdanger, .bwarning, .binfo, .blight, .bdark, .oprimary, .osecondary, .osuccess, .odanger, .owarning, .oinfo, .olight, .odark, .lgbprimary, .olgprimary, .olgsecondary, .lgbpiggypink, .lgbmegatron, .lgbeveningsunshine, .lgbendlessriver, .lgblightocean, .lgbyoda, .lgbazurlane, .lgbwitchinghour, .pb, .pbprimary, .pbsecondary, .pbsuccess, .pbdanger, .pbwarning, .pbinfo, .pblight, .pbdark, .scale {
+.b, .bprimary, .bsecondary, .bsuccess, .bdanger, .bwarning, .binfo, .blight, .bdark, .oprimary, .osecondary, .osuccess, .odanger, .owarning, .oinfo, .olight, .odark, .lgbprimary, .lgbsecondary, .lgbsuccess, .lgbdanger, .lgbwarning, .lgbinfo, .lgblight, .lgbdark, .lgbdark:hover, .olgprimary, .olgsecondary, .lgbpiggypink, .lgbmegatron, .lgbeveningsunshine, .lgbendlessriver, .lgblightocean, .lgbyoda, .lgbazurlane, .lgbwitchinghour, .pb, .pbprimary, .pbsecondary, .pbsuccess, .pbdanger, .pbwarning, .pbinfo, .pblight, .pbdark, .scale {
   background-color: transparent;
   border: none;
   padding: 0.5rem;
@@ -29,7 +29,7 @@
   background-color: white;
 }
 
-a.b:hover, a.bprimary:hover, a.bsecondary:hover, a.bsuccess:hover, a.bdanger:hover, a.bwarning:hover, a.binfo:hover, a.blight:hover, a.bdark:hover, a.oprimary:hover, a.osecondary:hover, a.osuccess:hover, a.odanger:hover, a.owarning:hover, a.oinfo:hover, a.olight:hover, a.odark:hover, a.lgbprimary:hover, a.olgprimary:hover, a.olgsecondary:hover, a.lgbpiggypink:hover, a.lgbmegatron:hover, a.lgbeveningsunshine:hover, a.lgbendlessriver:hover, a.lgblightocean:hover, a.lgbyoda:hover, a.lgbazurlane:hover, a.lgbwitchinghour:hover, a.pb:hover, a.pbprimary:hover, a.pbsecondary:hover, a.pbsuccess:hover, a.pbdanger:hover, a.pbwarning:hover, a.pbinfo:hover, a.pblight:hover, a.pbdark:hover, a.scale:hover {
+a.b:hover, a.bprimary:hover, a.bsecondary:hover, a.bsuccess:hover, a.bdanger:hover, a.bwarning:hover, a.binfo:hover, a.blight:hover, a.bdark:hover, a.oprimary:hover, a.osecondary:hover, a.osuccess:hover, a.odanger:hover, a.owarning:hover, a.oinfo:hover, a.olight:hover, a.odark:hover, a.lgbprimary:hover, a.lgbsecondary:hover, a.lgbsuccess:hover, a.lgbdanger:hover, a.lgbwarning:hover, a.lgbinfo:hover, a.lgblight:hover, a.lgbdark:hover, a.olgprimary:hover, a.olgsecondary:hover, a.lgbpiggypink:hover, a.lgbmegatron:hover, a.lgbeveningsunshine:hover, a.lgbendlessriver:hover, a.lgblightocean:hover, a.lgbyoda:hover, a.lgbazurlane:hover, a.lgbwitchinghour:hover, a.pb:hover, a.pbprimary:hover, a.pbsecondary:hover, a.pbsuccess:hover, a.pbdanger:hover, a.pbwarning:hover, a.pbinfo:hover, a.pblight:hover, a.pbdark:hover, a.scale:hover {
   text-decoration: none;
 }
 
@@ -195,8 +195,8 @@ a.b:hover, a.bprimary:hover, a.bsecondary:hover, a.bsuccess:hover, a.bdanger:hov
 
 /* GRADIENT BUTTONS */
 .lgbprimary {
-  background: -webkit-gradient(linear, left top, right top, from(#52a0fd), color-stop(80%, #00e2fa), to(#00e2fa));
-  background: linear-gradient(to right, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#0083b0), to(#00b4db));
+  background: linear-gradient(to right, #0083b0, #00b4db);
   border: none;
   color: #f1f1f1;
   -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -204,10 +204,92 @@ a.b:hover, a.bprimary:hover, a.bsecondary:hover, a.bsuccess:hover, a.bdanger:hov
 }
 
 .lgbprimary:hover {
-  background: -webkit-gradient(linear, right top, left top, from(#52a0fd), color-stop(80%, #00e2fa), to(#00e2fa));
-  background: linear-gradient(to left, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
+  background: -webkit-gradient(linear, right top, left top, from(#0083b0), to(#00b4db));
+  background: linear-gradient(to left, #0083b0, #00b4db);
   -webkit-transition: background 1000ms linear;
   transition: background 1000ms linear;
+}
+
+.lgbsecondary {
+  background: -webkit-gradient(linear, right top, left top, from(#3E5151), to(#DECBA4));
+  background: linear-gradient(to left, #3E5151, #DECBA4);
+  border: none;
+  color: #333;
+}
+
+.lgbsecondary:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#3E5151), to(#DECBA4));
+  background: linear-gradient(to right, #3E5151, #DECBA4);
+}
+
+.lgbsuccess {
+  background: -webkit-gradient(linear, left top, right top, from(#DCE35B), to(#45B649));
+  background: linear-gradient(to right, #DCE35B, #45B649);
+  border: none;
+}
+
+.lgbsuccess:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#DCE35b), to(#45B649));
+  background: linear-gradient(to left, #DCE35b, #45B649);
+}
+
+.lgbdanger {
+  background: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  border: none;
+  color: #fff;
+}
+
+.lgbdanger:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#ff416c), to(#ff4b2b));
+  background: linear-gradient(to left, #ff416c, #ff4b2b);
+}
+
+.lgbwarning {
+  background: -webkit-gradient(linear, left top, right top, from(#ffc107), to(#f3f9a7));
+  background: linear-gradient(to right, #ffc107, #f3f9a7);
+  border: none;
+}
+
+.lgbwarning:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#ffc107), to(#f3f9a7));
+  background: linear-gradient(to left, #ffc107, #f3f9a7);
+}
+
+.lgbinfo {
+  background: -webkit-gradient(linear, left top, right top, from(#06beb6), to(lightblue));
+  background: linear-gradient(to right, #06beb6, lightblue);
+  border: none;
+}
+
+.lgbinfo:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#06beb6), to(lightblue));
+  background: linear-gradient(to left, #06beb6, lightblue);
+}
+
+.lgblight {
+  background: -webkit-gradient(linear, left top, right top, from(#8e9eab), to(#eef2f3));
+  background: linear-gradient(to right, #8e9eab, #eef2f3);
+  border: none;
+}
+
+.lgblight:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#8e9eab), to(#eef2f3));
+  background: linear-gradient(to left, #8e9eab, #eef2f3);
+}
+
+.lgbdark {
+  background: -webkit-gradient(linear, left top, right top, from(#000000), to(#434343));
+  background: linear-gradient(to right, #000000, #434343);
+  border: none;
+  color: #fff;
+}
+
+.lgbdark:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#000000), to(#434343));
+  background: linear-gradient(to left, #000000, #434343);
+  border: none;
+  color: #fff;
 }
 
 /* OUTLINED GRADIENT BUTTONS */
@@ -392,6 +474,8 @@ a.b:hover, a.bprimary:hover, a.bsecondary:hover, a.bsuccess:hover, a.bdanger:hov
 .pb, .pbprimary, .pbsecondary, .pbsuccess, .pbdanger, .pbwarning, .pbinfo, .pblight, .pbdark {
   -webkit-box-shadow: 0 6px #999;
           box-shadow: 0 6px #999;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .pb:active, .pbprimary:active, .pbsecondary:active, .pbsuccess:active, .pbdanger:active, .pbwarning:active, .pbinfo:active, .pblight:active, .pbdark:active {

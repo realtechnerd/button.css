@@ -179,9 +179,8 @@ a.b:hover {
     @extend .b;
     background: linear-gradient(
 		to right,
-		#52a0fd 0%,
-		#00e2fa 80%,
-		#00e2fa 100%
+		#0083b0,
+		#00b4db
 	);
     border: none;
     color: #f1f1f1;
@@ -191,14 +190,129 @@ a.b:hover {
 .lgbprimary:hover {
     background: linear-gradient(
 		to left,
-		#52a0fd 0%,
-		#00e2fa 80%,
-		#00e2fa 100%
-    );
+		#0083b0,
+		#00b4db
+	);
     transition: background 1000ms linear;
 }
-
-
+.lgbsecondary {
+    @extend .b;
+    background: linear-gradient(
+        to left,
+        #3E5151,
+        #DECBA4
+    );
+    border: none;
+    color: #333;
+}
+.lgbsecondary:hover {
+    background: linear-gradient(
+        to right,
+        #3E5151,
+        #DECBA4
+    );
+}
+.lgbsuccess {
+    @extend .b;
+    background: linear-gradient(
+        to right,
+        #DCE35B,
+        #45B649
+    );
+    border: none;
+}
+.lgbsuccess:hover {
+    background: linear-gradient(
+        to left,
+        #DCE35b,
+        #45B649
+    );
+}
+.lgbdanger {
+    @extend .b;
+    background: linear-gradient(
+        to right,
+        #ff416c,
+        #ff4b2b
+    );
+    border: none;
+    color: #fff;
+}
+.lgbdanger:hover {
+    background: linear-gradient(
+        to left,
+        #ff416c,
+        #ff4b2b
+    );
+}
+.lgbwarning {
+    @extend .b;
+    background: linear-gradient(
+        to right,
+        #ffc107,
+        #f3f9a7   
+    );
+    border: none;
+}
+.lgbwarning:hover {
+    background: linear-gradient(
+        to left,
+        #ffc107,
+        #f3f9a7   
+    );
+}
+.lgbinfo {
+    @extend .b;
+    background: linear-gradient(
+        to right,
+        #06beb6,
+        lightblue
+    );
+    border: none;
+}
+.lgbinfo:hover {
+    background: linear-gradient(
+        to left,
+        #06beb6,
+        lightblue
+    );
+}
+.lgblight {
+    @extend .b;
+    background: linear-gradient(
+        to right,
+        #8e9eab,
+        #eef2f3
+    );
+    border: none;
+}
+.lgblight:hover {
+    background: linear-gradient(
+        to left,
+        #8e9eab,
+        #eef2f3
+    );
+}
+.lgbdark {
+    @extend .b;
+    background: linear-gradient(
+        to right, 
+        #000000,
+        #434343
+    );
+    border: none;
+    color: #fff;
+}
+.lgbdark:hover {
+    @extend .b;
+    background: linear-gradient(
+        to left, 
+        #000000,
+        #434343
+    );
+    border: none;
+    color: #fff;
+}
 /* OUTLINED GRADIENT BUTTONS */
 .olg {
     border: solid 2px transparent;
@@ -445,6 +559,7 @@ a.b:hover {
 .pb {
     @extend .b;
     box-shadow: 0 6px #999;
+    transition: 0.2s;
 }
 
 .pb:active {
