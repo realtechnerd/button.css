@@ -326,26 +326,91 @@ a.b:hover {
 .olgprimary {
     @extend .b;
     @extend .olg;
-    background: linear-gradient(to right, #021b79, #007bff 25%, lightblue 80%);
+    background: linear-gradient(
+		to right,
+		#0083b0,
+		#00b4db
+	);
     background-origin: border-box;
 }
 .olgprimary:hover {
-    @extend .olg:hover;
-    color: #f1f1f1;
-    background: linear-gradient(to right, 101deg, #021b79, #0575e6, lightblue);
+    color: #fff;
 }
 .olgsecondary {
     @extend .b;
     @extend .olg;
-    background: linear-gradient(to right, #ADA996, #DBDBDB,#EAEAEA);
+    background: linear-gradient(
+        to left,
+        #3E5151,
+        #DECBA4
+    );
     background-origin: border-box;
-}   
-.olgsecondary:hover {
-    @extend .olg:hover;
-    color: #000;
-    background: linear-gradient(to right, 101deg, #ADA996, #DBDBDB,#EAEAEA);
 }
-
+.olgsuccess {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #DCE35B,
+        #45B649
+    );
+    background-origin: border-box;
+}
+.olgdanger {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #ff416c,
+        #ff4b2b
+    );
+    background-origin: border-box;
+}
+.olgdanger:hover {
+    color: #fff;
+}
+.olgwarning {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #ffc107,
+        #f3f9a7   
+    );
+    background-origin: border-box;
+}
+.olginfo {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #06beb6,
+        lightblue
+    );
+    background-origin: border-box;
+}
+.olglight {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #8e9eab,
+        #eef2f3
+    );
+    background-origin: border-box;
+}
+.olgdark {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right, 
+        #000000,
+        #434343
+    );
+}
+.olgdark:hover {
+    color: #fff;
+}
 /* collection of gradient buttons */
 
 .lgbpiggypink {
