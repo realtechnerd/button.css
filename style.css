@@ -16,7 +16,7 @@
   -webkit-transition: 0.2s;
   transition: 0.2s;
   color: #333;
-  outline: none;
+  outline: none !important;
   text-decoration: none;
   display: inline-block;
   -webkit-user-select: none;
