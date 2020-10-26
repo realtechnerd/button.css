@@ -303,14 +303,13 @@ a.b:hover {
     color: #fff;
 }
 .lgbdark:hover {
-    @extend .b;
+
     background: linear-gradient(
         to left, 
         #000000,
         #434343
     );
     border: none;
-    color: #fff;
 }
 /* OUTLINED GRADIENT BUTTONS */
 .opb {
@@ -330,7 +329,6 @@ a.b:hover {
 .olgprimary {
     @extend .b;
     @extend .olg;
-    @extend .opb;
     background: linear-gradient(
 		to right,
 		#0083b0,
@@ -443,7 +441,16 @@ a.b:hover {
         #ffdde1
 	);
 }
-
+.olgpiggypink {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #ee9ca7,
+        #ffdde1
+    );
+    background-origin: border-box;
+}
 .lgbmegatron {
     @extend .b;
     background: linear-gradient(
@@ -472,7 +479,17 @@ a.b:hover {
         #f7797d
 	);
 }
-
+.olgmegatron {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #c6ffdd,
+        #fbd786,
+        #f7797d
+    );
+    background-origin: border-box;
+}
 .lgbeveningsunshine {
     @extend .b;
     background: linear-gradient(
@@ -497,7 +514,19 @@ a.b:hover {
         #1565c0,
     );
 }
-
+.olgeveningsunshine {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #b92b27,
+        #1565c0,
+    );
+    background-origin: border-box;
+}
+.olgeveningsunshine:hover {
+    color: #fff;
+}
 .lgbendlessriver {
     @extend .b;
     background: linear-gradient(
@@ -522,7 +551,19 @@ a.b:hover {
         #185a9d, 
     );
 }
-
+.olgendlessriver {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to left,
+        #43cea2,
+        #185a9d,
+    );
+    background-origin: border-box;
+}
+.olgendlessriver:hover {
+    color: #fff;
+}
 .lgblightocean {
     @extend .b;
     background: linear-gradient(
@@ -547,7 +588,16 @@ a.b:hover {
         #6dd5fa
     );
 }
-
+.olglightocean {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to left,
+        #2980b9,
+        #6dd5fa,
+    );
+    background-origin: border-box;
+}
 .lgbyoda {
     @extend .b;
     background: linear-gradient(
@@ -571,7 +621,16 @@ a.b:hover {
         #99f2c8
     );
 }
-
+.olgyoda {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to left,
+        #1f4037,
+        #99f2c8,
+    );
+    background-origin: border-box;
+}
 .lgbazurlane {
     @extend .b;
     background: linear-gradient(
@@ -598,7 +657,17 @@ a.b:hover {
         #91eae4
     );
 }
-
+.olgazurlane {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to left,
+        #7f7fd5,
+        #86a8e7,
+        #91eae4
+    );
+    background-origin: border-box;
+}
 .lgbwitchinghour {
     @extend .b;
     background: linear-gradient(
@@ -623,7 +692,21 @@ a.b:hover {
         #240b36,
     );
 }
+.olgwitchinghour {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to left,
+        #c31432,
+        #240b36
+    );
+    background-origin: border-box;
+}
+.olgwitchinghour:hover {
+    color: #fff;
+}
 .lgbemokid {
+    @extend .b;
     background: linear-gradient(
         to right,
         #556270,
@@ -639,7 +722,28 @@ a.b:hover {
         #ff6b6b
     );
 }
+.lgbemokid:active {
+    background: linear-gradient(
+        to right,
+        #556270,
+        #ff6b6b,
+    );
+}
+.olgemokid {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #556270,
+        #ff6b6b
+    );
+    background-origin: border-box;
+}
+.olgemokid:hover {
+    color: #fff;
+}
 .lgbamethyst {
+    @extend .b;
     background: linear-gradient(
         to right,
         #9d50bb,
@@ -655,7 +759,329 @@ a.b:hover {
         #6e48aa
     );
 }
-
+.lgbamethyst:active {
+    background: linear-gradient(
+        to right,
+        #9d50bb,
+        #6e48aa
+    );
+}
+.olgamethyst {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #9d50bb,
+        #6e48aa
+    );
+    background-origin: border-box;
+}
+.olgamethyst:hover {
+    color: #fff;
+}
+.lgbverde {
+    @extend .b;
+    background: linear-gradient(
+        to left,
+        #FFE000,
+        #799F0C 
+    );
+    border: none;
+}
+.lgbverde:hover {
+    background: linear-gradient(
+        to right,
+        #FFE000,
+        #799F0C 
+    );
+}
+.lgbverde:active {
+    background: linear-gradient(
+        to left,
+        #FFE000,
+        #799F0C 
+    );
+}
+.olgverde {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to left,
+        #FFE000,
+        #799F0C
+    );
+    background-origin: border-box;
+}
+.lgbquepal {
+    @extend .b;
+    background: linear-gradient(
+        to right,
+        #11998e,
+        #38ef7d
+    );
+    border: none;
+    color: #333;
+}
+.lgbquepal:hover {
+    background: linear-gradient(
+        to left,
+        #11998e,
+        #38ef7d
+    );
+    border: none;
+}
+.lgbquepal:active {
+    background: linear-gradient(
+        to right,
+        #11998e,
+        #38ef7d
+    );
+    border: none;
+}
+.olgquepal {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #11998e,
+        #38ef7d
+    );
+    background-origin: border-box;
+}
+.lgborangecoral {
+    @extend .b;
+    background: linear-gradient(
+        to right,
+        #ff9966,
+        #ff5e62
+    );
+    border: none;
+    color: #fff;
+}
+.lgborangecoral:hover {
+    background: linear-gradient(
+        to left,
+        #ff9966,
+        #ff5e62
+    );
+    border: none;
+}
+.lgborangecoral:active {
+    background: linear-gradient(
+        to right,
+        #ff9966,
+        #ff5e62
+    );
+    border: none;
+}
+.olgorangecoral {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #ff9966,
+        #ff5e62
+    );
+    background-origin: border-box;
+}
+.olgorangecoral:hover {
+    color: #fff;
+}
+.lgbfireboy {
+    @extend .b;
+    background: linear-gradient(
+        to right,
+        #FF4E50,
+        #F9D423
+    );
+    border: none;
+    color: #fff;
+}
+.lgbfireboy:hover {
+    background: linear-gradient(
+        to left,
+        #FF4E50,
+        #F9D423
+    );
+    border: none;
+}
+.lgbfireboy:active {
+    background: linear-gradient(
+        to right,
+        #FF4E50,
+        #F9D423
+    );
+    border: none;
+}
+.olgfireboy {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #FF4E50,
+        #F9D423
+    );
+    background-origin: border-box;
+}
+.olgfireboy:hover {
+    color: #fff;
+}
+.lgbparklife {
+    @extend .b;
+    background: linear-gradient(
+        to right,
+        #ADD100,
+        #7B920A
+    );
+    border: none;
+    color: #fff;
+}
+.lgbparklife:hover {
+    background: linear-gradient(
+        to left,
+        #ADD100,
+        #7B920A
+    );
+    border: none;
+}
+.lgbparklife:active {
+    background: linear-gradient(
+        to right,
+        #ADD100,
+        #7B920A
+    );
+    border: none;
+}
+.olgparklife {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #ADD100,
+        #7B920A
+    );
+    background-origin: border-box;
+}
+.olgparklife:hover {
+    color: #fff;
+}
+.lgbopa {
+    @extend .b;
+    background: linear-gradient(
+        to right,
+        #3D7EAA,
+        #FFE47A
+    );
+    border: none;
+    color: #fff;
+}
+.lgbopa:hover {
+    background: linear-gradient(
+        to left,
+        #3D7EAA,
+        #FFE47A
+    );
+    border: none;
+}
+.lgbopa:active {
+    background: linear-gradient(
+        to right,
+        #3D7EAA,
+        #FFE47A
+    );
+    border: none;
+}
+.olgopa {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #3D7EAA,
+        #FFE47A
+    );
+    background-origin: border-box;
+}
+.olgopa:hover {
+    color: #fff;
+}
+.lgbshockwave {
+    @extend .b;
+    background: linear-gradient(
+        to right,
+        #4776E6,
+        #8E54E9
+    );
+    border: none;
+    color: #fff;
+}
+.lgbshockwave:hover {
+    background: linear-gradient(
+        to left,
+        #4776E6,
+        #8E54E9
+    );
+    border: none;
+}
+.lgbshockwave:active {
+    background: linear-gradient(
+        to right,
+        #4776E6,
+        #8E54E9
+    );
+    border: none;
+}
+.olgshockwave {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #4776E6,
+        #8E54E9
+    );
+    background-origin: border-box;
+}
+.olgshockwave:hover {
+    color: #fff;
+}
+.lgbmary {
+    @extend .b;
+    background: linear-gradient(
+        to right,
+        #FF512F,
+        #8E54E9
+    );
+    border: none;
+    color: #fff;
+}
+.lgbmary:hover {
+    background: linear-gradient(
+        to left,
+        #FF512F,
+        #8E54E9
+    );
+    border: none;
+}
+.lgbmary:active {
+    background: linear-gradient(
+        to right,
+        #FF512F,
+        #8E54E9
+    );
+    border: none;
+}
+.olgmary {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #FF512F,
+        #8E54E9
+    );
+    background-origin: border-box;
+}
+.olgmary:hover {
+    color: #fff;
+}
 /* push buttons */
 .pb {
     @extend .b;
@@ -956,7 +1382,6 @@ input:checked + .sdark {
     color: #333;
 }
 .vbutton:hover {
-    @extend .b;
     background: linear-gradient(
 		to left,
 		#1de332,
