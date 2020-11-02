@@ -4,7 +4,7 @@
   font-family: Source Code Pro;
 }
 
-.b, .bprimary, .bsecondary, .bsuccess, .bdanger, .bwarning, .binfo, .blight, .bdark, .oprimary, .osecondary, .osuccess, .odanger, .owarning, .oinfo, .olight, .odark, .lgbprimary, .lgbsecondary, .lgbsuccess, .lgbdanger, .lgbwarning, .lgbinfo, .lgblight, .lgbdark, .olg, .olgprimary, .olgsecondary, .olgsuccess, .olgdanger, .olgwarning, .olginfo, .olglight, .olgdark, .olgpiggypink, .olgmegatron, .olgeveningsunshine, .olgendlessriver, .olglightocean, .olgyoda, .olgazurlane, .olgwitchinghour, .olgemokid, .olgamethyst, .olgverde, .olgquepal, .olgorangecoral, .olgfireboy, .olgparklife, .olgopa, .olgshockwave, .olgmary, .lgbpiggypink, .lgbmegatron, .lgbeveningsunshine, .lgbendlessriver, .lgblightocean, .lgbyoda, .lgbazurlane, .lgbwitchinghour, .lgbemokid, .lgbamethyst, .lgbverde, .lgbquepal, .lgborangecoral, .lgbfireboy, .lgbparklife, .lgbopa, .lgbshockwave, .lgbmary, .pb, .pbprimary, .pbsecondary, .pbsuccess, .pbdanger, .pbwarning, .pbinfo, .pblight, .pbdark, .scale, .vbutton {
+.b, .bprimary, .bsecondary, .bsuccess, .bdanger, .bwarning, .binfo, .blight, .bdark, .oprimary, .osecondary, .osuccess, .odanger, .owarning, .oinfo, .olight, .odark, .lgbprimary, .lgbsecondary, .lgbsuccess, .lgbdanger, .lgbwarning, .lgbinfo, .lgblight, .lgbdark, .olg, .olgprimary, .olgsecondary, .olgsuccess, .olgdanger, .olgwarning, .olginfo, .olglight, .olgdark, .olgpiggypink, .olgmegatron, .olgeveningsunshine, .olgendlessriver, .olglightocean, .olgyoda, .olgazurlane, .olgwitchinghour, .olgemokid, .olgamethyst, .olgverde, .olgquepal, .olgorangecoral, .olgfireboy, .olgparklife, .olgopa, .olgshockwave, .olgmary, .olgspaceboy, .lgbpiggypink, .lgbmegatron, .lgbeveningsunshine, .lgbendlessriver, .lgblightocean, .lgbyoda, .lgbazurlane, .lgbwitchinghour, .lgbemokid, .lgbamethyst, .lgbverde, .lgbquepal, .lgborangecoral, .lgbfireboy, .lgbparklife, .lgbopa, .lgbshockwave, .lgbmary, .lgbspaceboy, .pb, .pbprimary, .pbsecondary, .pbsuccess, .pbdanger, .pbwarning, .pbinfo, .pblight, .pbdark, .scale, .vbutton {
   background-color: transparent;
   border: none;
   padding: 0.5rem;
@@ -29,7 +29,7 @@
   background-color: white;
 }
 
-a.b:hover, a.bprimary:hover, a.bsecondary:hover, a.bsuccess:hover, a.bdanger:hover, a.bwarning:hover, a.binfo:hover, a.blight:hover, a.bdark:hover, a.oprimary:hover, a.osecondary:hover, a.osuccess:hover, a.odanger:hover, a.owarning:hover, a.oinfo:hover, a.olight:hover, a.odark:hover, a.lgbprimary:hover, a.lgbsecondary:hover, a.lgbsuccess:hover, a.lgbdanger:hover, a.lgbwarning:hover, a.lgbinfo:hover, a.lgblight:hover, a.lgbdark:hover, a.olg:hover, a.olgprimary:hover, a.olgsecondary:hover, a.olgsuccess:hover, a.olgdanger:hover, a.olgwarning:hover, a.olginfo:hover, a.olglight:hover, a.olgdark:hover, a.olgpiggypink:hover, a.olgmegatron:hover, a.olgeveningsunshine:hover, a.olgendlessriver:hover, a.olglightocean:hover, a.olgyoda:hover, a.olgazurlane:hover, a.olgwitchinghour:hover, a.olgemokid:hover, a.olgamethyst:hover, a.olgverde:hover, a.olgquepal:hover, a.olgorangecoral:hover, a.olgfireboy:hover, a.olgparklife:hover, a.olgopa:hover, a.olgshockwave:hover, a.olgmary:hover, a.lgbpiggypink:hover, a.lgbmegatron:hover, a.lgbeveningsunshine:hover, a.lgbendlessriver:hover, a.lgblightocean:hover, a.lgbyoda:hover, a.lgbazurlane:hover, a.lgbwitchinghour:hover, a.lgbemokid:hover, a.lgbamethyst:hover, a.lgbverde:hover, a.lgbquepal:hover, a.lgborangecoral:hover, a.lgbfireboy:hover, a.lgbparklife:hover, a.lgbopa:hover, a.lgbshockwave:hover, a.lgbmary:hover, a.pb:hover, a.pbprimary:hover, a.pbsecondary:hover, a.pbsuccess:hover, a.pbdanger:hover, a.pbwarning:hover, a.pbinfo:hover, a.pblight:hover, a.pbdark:hover, a.scale:hover, a.vbutton:hover {
+a.b:hover, a.bprimary:hover, a.bsecondary:hover, a.bsuccess:hover, a.bdanger:hover, a.bwarning:hover, a.binfo:hover, a.blight:hover, a.bdark:hover, a.oprimary:hover, a.osecondary:hover, a.osuccess:hover, a.odanger:hover, a.owarning:hover, a.oinfo:hover, a.olight:hover, a.odark:hover, a.lgbprimary:hover, a.lgbsecondary:hover, a.lgbsuccess:hover, a.lgbdanger:hover, a.lgbwarning:hover, a.lgbinfo:hover, a.lgblight:hover, a.lgbdark:hover, a.olg:hover, a.olgprimary:hover, a.olgsecondary:hover, a.olgsuccess:hover, a.olgdanger:hover, a.olgwarning:hover, a.olginfo:hover, a.olglight:hover, a.olgdark:hover, a.olgpiggypink:hover, a.olgmegatron:hover, a.olgeveningsunshine:hover, a.olgendlessriver:hover, a.olglightocean:hover, a.olgyoda:hover, a.olgazurlane:hover, a.olgwitchinghour:hover, a.olgemokid:hover, a.olgamethyst:hover, a.olgverde:hover, a.olgquepal:hover, a.olgorangecoral:hover, a.olgfireboy:hover, a.olgparklife:hover, a.olgopa:hover, a.olgshockwave:hover, a.olgmary:hover, a.olgspaceboy:hover, a.lgbpiggypink:hover, a.lgbmegatron:hover, a.lgbeveningsunshine:hover, a.lgbendlessriver:hover, a.lgblightocean:hover, a.lgbyoda:hover, a.lgbazurlane:hover, a.lgbwitchinghour:hover, a.lgbemokid:hover, a.lgbamethyst:hover, a.lgbverde:hover, a.lgbquepal:hover, a.lgborangecoral:hover, a.lgbfireboy:hover, a.lgbparklife:hover, a.lgbopa:hover, a.lgbshockwave:hover, a.lgbmary:hover, a.lgbspaceboy:hover, a.pb:hover, a.pbprimary:hover, a.pbsecondary:hover, a.pbsuccess:hover, a.pbdanger:hover, a.pbwarning:hover, a.pbinfo:hover, a.pblight:hover, a.pbdark:hover, a.scale:hover, a.vbutton:hover {
   text-decoration: none;
 }
 
@@ -290,11 +290,11 @@ a.b:hover, a.bprimary:hover, a.bsecondary:hover, a.bsuccess:hover, a.bdanger:hov
 }
 
 /* OUTLINED GRADIENT BUTTONS */
-.opb, .olg, .olgprimary, .olgsecondary, .olgsuccess, .olgdanger, .olgwarning, .olginfo, .olglight, .olgdark, .olgpiggypink, .olgmegatron, .olgeveningsunshine, .olgendlessriver, .olglightocean, .olgyoda, .olgazurlane, .olgwitchinghour, .olgemokid, .olgamethyst, .olgverde, .olgquepal, .olgorangecoral, .olgfireboy, .olgparklife, .olgopa, .olgshockwave, .olgmary {
+.opb, .olg, .olgprimary, .olgsecondary, .olgsuccess, .olgdanger, .olgwarning, .olginfo, .olglight, .olgdark, .olgpiggypink, .olgmegatron, .olgeveningsunshine, .olgendlessriver, .olglightocean, .olgyoda, .olgazurlane, .olgwitchinghour, .olgemokid, .olgamethyst, .olgverde, .olgquepal, .olgorangecoral, .olgfireboy, .olgparklife, .olgopa, .olgshockwave, .olgmary, .olgspaceboy {
   border-bottom: 6px #000 solid;
 }
 
-.olg, .olgprimary, .olgsecondary, .olgsuccess, .olgdanger, .olgwarning, .olginfo, .olglight, .olgdark, .olgpiggypink, .olgmegatron, .olgeveningsunshine, .olgendlessriver, .olglightocean, .olgyoda, .olgazurlane, .olgwitchinghour, .olgemokid, .olgamethyst, .olgverde, .olgquepal, .olgorangecoral, .olgfireboy, .olgparklife, .olgopa, .olgshockwave, .olgmary {
+.olg, .olgprimary, .olgsecondary, .olgsuccess, .olgdanger, .olgwarning, .olginfo, .olglight, .olgdark, .olgpiggypink, .olgmegatron, .olgeveningsunshine, .olgendlessriver, .olglightocean, .olgyoda, .olgazurlane, .olgwitchinghour, .olgemokid, .olgamethyst, .olgverde, .olgquepal, .olgorangecoral, .olgfireboy, .olgparklife, .olgopa, .olgshockwave, .olgmary, .olgspaceboy {
   border: solid 2px transparent;
   -webkit-box-shadow: 2px 1000px 1px white inset;
           box-shadow: 2px 1000px 1px white inset;
@@ -302,7 +302,7 @@ a.b:hover, a.bprimary:hover, a.bsecondary:hover, a.bsuccess:hover, a.bdanger:hov
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
 }
 
-.olg:hover, .olgprimary:hover, .olgsecondary:hover, .olgsuccess:hover, .olgdanger:hover, .olgwarning:hover, .olginfo:hover, .olglight:hover, .olgdark:hover, .olgpiggypink:hover, .olgmegatron:hover, .olgeveningsunshine:hover, .olgendlessriver:hover, .olglightocean:hover, .olgyoda:hover, .olgazurlane:hover, .olgwitchinghour:hover, .olgemokid:hover, .olgamethyst:hover, .olgverde:hover, .olgquepal:hover, .olgorangecoral:hover, .olgfireboy:hover, .olgparklife:hover, .olgopa:hover, .olgshockwave:hover, .olgmary:hover {
+.olg:hover, .olgprimary:hover, .olgsecondary:hover, .olgsuccess:hover, .olgdanger:hover, .olgwarning:hover, .olginfo:hover, .olglight:hover, .olgdark:hover, .olgpiggypink:hover, .olgmegatron:hover, .olgeveningsunshine:hover, .olgendlessriver:hover, .olglightocean:hover, .olgyoda:hover, .olgazurlane:hover, .olgwitchinghour:hover, .olgemokid:hover, .olgamethyst:hover, .olgverde:hover, .olgquepal:hover, .olgorangecoral:hover, .olgfireboy:hover, .olgparklife:hover, .olgopa:hover, .olgshockwave:hover, .olgmary:hover, .olgspaceboy:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
   border: solid 2px transparent;
@@ -838,6 +838,35 @@ a.b:hover, a.bprimary:hover, a.bsecondary:hover, a.bsuccess:hover, a.bdanger:hov
 }
 
 .olgmary:hover {
+  color: #fff;
+}
+
+.lgbspaceboy {
+  background: -webkit-gradient(linear, left top, right top, from(#141e30), to(#243b55));
+  background: linear-gradient(to right, #141e30, #243b55);
+  border: none;
+  color: #fff;
+}
+
+.lgbspaceboy:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#141e30), to(#243b55));
+  background: linear-gradient(to left, #141e30, #243b55);
+  border: none;
+}
+
+.lgbspaceboy:active {
+  background: -webkit-gradient(linear, left top, right top, from(#141e30), to(#243b55));
+  background: linear-gradient(to right, #141e30, #243b55);
+  border: none;
+}
+
+.olgspaceboy {
+  background: -webkit-gradient(linear, left top, right top, from(#141e30), to(#243b55));
+  background: linear-gradient(to right, #141e30, #243b55);
+  background-origin: border-box;
+}
+
+.olgspaceboy:hover {
   color: #fff;
 }
 
