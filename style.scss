@@ -1117,6 +1117,53 @@ a.b:hover {
 .olgspaceboy:hover {
     color: #fff;
 }
+.lgbhydrogen {
+    @extend .b;
+    background: linear-gradient(
+        to right,
+        #667db6, 
+        #0082c8, 
+        #0082c8, 
+        #667db6
+    );
+    border: none;
+    color: #fff;
+}
+.lgbhydrogen:hover {
+    background: linear-gradient(
+        to left,
+        #667db6, 
+        #0082c8, 
+        #0082c8, 
+        #667db6
+    );
+    border: none;
+}
+.lgbhydrogen:active {
+    background: linear-gradient(
+        to right,
+        #667db6, 
+        #0082c8, 
+        #0082c8, 
+        #667db6
+    );
+    border: none;
+}
+.olghydrogen {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right,
+        #667db6, 
+        #0082c8, 
+        #0082c8, 
+        #667db6
+    );
+    background-origin: border-box;
+}
+.olghydrogen:hover {
+    color: #fff;
+}
 /* push buttons */
 .pb {
     @extend .b;
