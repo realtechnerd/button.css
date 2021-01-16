@@ -1164,6 +1164,45 @@ a.b:hover {
 .olghydrogen:hover {
     color: #fff;
 }
+.lgbdigitalwater {
+    @extend .b;
+    background: linear-gradient(
+        to right, 
+        #ACB6E5, 
+        #74ebd5
+    ); 
+    border: none;
+    color: #fff;
+}
+.lgbdigitalwater:hover {
+    background: linear-gradient(
+        to left, 
+        #ACB6E5, 
+        #74ebd5
+    ); 
+    border: none;
+}
+.lgbdigitalwater:active {
+    background: linear-gradient(
+        to right, 
+        #ACB6E5, 
+        #74ebd5
+    ); 
+    border: none;
+}
+.olgdigitalwater {
+    @extend .b;
+    @extend .olg;
+    background: linear-gradient(
+        to right, 
+        #ACB6E5, 
+        #74ebd5
+    ); 
+    background-origin: border-box;
+}
+.olgdigitalwater:hover {
+    color: #fff;
+}
 /* push buttons */
 .pb {
     @extend .b;
